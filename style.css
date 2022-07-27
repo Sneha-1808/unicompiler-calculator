@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('img/Sunset.jpg');
+    background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+#calculator{
+   
+   margin: auto auto;
+   margin-top: 78px;
+   background-color: #d7d7d780;
+   width: 325px;
+   height: 500px;
+   padding: 17.5px ;
+   border-radius: 13px;
+   box-shadow: 1px 4px rgb(48, 44, 44)  ;
+}
+#result{
+    text-align: right;
+    height: 100px;
+    margin-top: 25px;
+}
+.history{
+    padding: 10px;
+    font-size: 21px;
+}
+.output{
+    padding: 10px;
+    padding-top: 8px;
+    font-size: 35px;
+    font-weight: 450;
+}
+.num-container{
+   display: flex;
+   flex-direction: column;
+
+   /* gap: 7px;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: 0fr 0fr 0fr; */
+   
+}
+button{
+    height: 55px;
+    width: 55px;
+    margin: 6.5px;
+    border: none;
+    border-radius: 55%;
+    font-weight: bold;
+    font-size: 21px;
+    /* border: 1px solid red ;
+    display: inline-block;
+    
+    text-align:  center;
+    padding: 37px;
+    top: 100px; */
+}
+button:hover{
+    cursor: pointer;
+}
+.row .num:hover{
+    background-color: rgb(94, 94, 94);
+}
+.row .num{
+    background-color: #d7d7d700;
+}
+.com:hover{
+    background-color: rgb(226, 223, 220);
+}
+.ac:hover{
+    background-color: rgb(183, 64, 64);
+ }
+.equal{
+    width: 124px;
+    border-radius: 3em;
+    background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgba(37,249,245,1) 0%, rgba(8,70,218,1) 90% );
+    /* background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% ); */
+    /* background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% ); */
+}
+
